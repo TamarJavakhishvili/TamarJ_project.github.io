@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid_term_project_main page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Inter&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <ul class="nav-ul">
+                <li><img class="nav-logo" src="./images/Massai_logo1.svg" alt="Massai_logo"></li>
+                <li><a href="./index.html" class="nav-text">Home</a></li>
+
+                <li>
+                    <select class="shop" name="shop" id="shop">
+                        <option hidden value="shop">Shop</option>
+                        <option style="background-color: transparent;" value="">Item 1</option>
+                        <option value="">Item 2</option>
+                        <option value="">Item 3</option>
+                    </select>
+                </li>
+
+                <li><a href="./about.html" target="_blank" class="nav-text">About</a></li>
+
+                <li><a href="./contact.html" target="_blank" class="nav-text">Contact</a></li>
+            </ul>
+
+
+            <div class="nav-icons-right">
+
+                <div class="search-input-container">
+                    <a href="">
+                        <input class="search-input" type="text">
+                        <img class="search-input-icon img-fluid" src="./images/Search icon.svg" alt="Search_icon">
+                    </a>
+
+                </div>
+
+                <a href="">
+                    <img class="img-fluid" src="./images/Shop.bag.svg" alt="Shop.bag_icon">
+                </a>
+                <a href="">
+                    <img class="img-fluid" src="./images/./avatar icon.svg" alt="avatar_icon">
+
+                </a>
+
+            </div>
+
+        </nav>
+
+
+    </header>
+
+
+
+    <main>
+
+        <section class="section1" class="sect1-column-reverse">
+
+            <div class="express-and-button">
+                <p class="main-text">Express yourself with handmade accessories from Massai</p>
+
+                <a href="">
+                    <button class="shop-now">Shop now</button>
+                </a>
+            </div>
+
+            <div class="main-image">
+                <img class="img1 img-fluid" src="./images/girl_image1.png" alt="girl with massai accessories">
+            </div>
+
+        </section>
+
+
+        <section class="our-products-section2">
+            <div>
+                <p class="our-products-text">Our Products</p>
+            </div>
+
+           
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-item-inner">
+                            <div class="card-images card1">
+                                <div>
+                                    <img class="img-fluid" src="./images/Hair_stick_image.png"
+                                        alt="girl with hair stick">
+                                </div>
+                                <p class="card-bottom-text">Hair Stick <i
+                                        class="fa-solid fa-chevron-right chevron-white"></i></p>
+                            </div>
+
+                            <div class="card-images card2">
+                                <div>
+                                    <img class="img-fluid" src="./images/Earrings_image.png" alt="Earrings">
+                                </div>
+                                <p class="card-bottom-text">Earrings <i
+                                        class="fa-solid fa-chevron-right chevron-white"></i></p>
+                            </div>
+
+                            <div class="card-images card3 image-hidden">
+                                <div>
+                                    <img class="img-fluid" src="./images/Hair_Braid_image.png" alt="Braids">
+                                </div>
+                                <p class="card-bottom-text">Hair Braid <i
+                                        class="fa-solid fa-chevron-right chevron-white"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-item-inner">
+                            <div class="card-images card1 newimage">
+                                <div>
+                                    <img class="img-fluid newimage" src="./images/resize-hairstick5.jpg"
+                                        alt="girl with hair stick">
+                                </div>
+                                <p class="card-bottom-text">Hair Stick <i
+                                        class="fa-solid fa-chevron-right chevron-white"></i></p>
+                            </div>
+
+                            <div class="card-images card2">
+                                <div>
+                                    <img class="img-fluid newimage" src="./images/resize-earrings5.jpeg" alt="Earrings">
+                                </div>
+                                <p class="card-bottom-text">Earrings <i
+                                        class="fa-solid fa-chevron-right chevron-white"></i></p>
+                            </div>
+
+                            <div class="card-images card3 image-hidden">
+                                <div>
+                                    <img class="img-fluid newimage" src="./images/resize-braids5.jpg" alt="Braids">
+                                </div>
+                                <p class="card-bottom-text">Hair Braid <i
+                                        class="fa-solid fa-chevron-right chevron-white"></i></p>
+                            </div>
+                        </div>
+                    </div>
+<!-- 
+                    <div class="carousel-item" id="sliders">
+                        <div class="carousel-item-inner">
+                            <div class="card-images card1">
+                                <div>
+                                    <img class="img-fluid" src="./images/Hair_stick_image.png"
+                                        alt="girl with hair stick">
+                                </div>
+                                <p class="card-bottom-text">Hair Stick <i
+                                        class="fa-solid fa-chevron-right chevron-white"></i></p>
+                            </div>
+
+                            <div class="card-images card2">
+                                <div>
+                                    <img class="img-fluid" src="./images/Earrings_image.png" alt="Earrings">
+                                </div>
+                                <p class="card-bottom-text">Earrings <i
+                                        class="fa-solid fa-chevron-right chevron-white"></i></p>
+                            </div>
+
+                            <div class="card-images card3 image-hidden">
+                                <div>
+                                    <img class="img-fluid" src="./images/Hair_Braid_image.png" alt="Braids">
+                                </div>
+                                <p class="card-bottom-text">Hair Braid <i
+                                        class="fa-solid fa-chevron-right chevron-white"></i></p>
+                            </div>
+
+                        </div>
+                    </div> -->
+              
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true">
+                        <i class="bi bi-arrow-left-circle-fill arrow-left"></i>
+                    </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">
+                        <i class="bi bi-arrow-right-circle-fill arrow-right"></i>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <div>
+                <a href="#"><button class="load-more">Load more</button></a>
+            </div>
+
+        </section>
+
+
+        <section class="section-3">
+
+            <div class="girl-image-section3">
+                <img class="img-fluid" src="./images/girl-image-in-profile.png" alt="girl with purple earrings">
+
+            </div>
+
+
+            <div class="text-and-button-section3">
+                <p class="section3-text">Choose a color according to your inner world and make it an accessory with
+                    Massai</p>
+
+                <a href="">
+                    <button class="shop-now">Shop now</button>
+                </a>
+            </div>
+
+
+
+        </section>
+
+
+    
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-uls">
+            <div>
+                <ul>
+                    <a href="./contact.html">
+                        <li>Contact Us</li>
+                    </a>
+                    <a href="./about.html">
+                        <li>About Us</li>
+                    </a>
+                    <a href="./index.html">
+                        <li>Gallery</li>
+                    </a>
+                    <a href="">
+                        <li>Delivery</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <a href="">
+                        <li>Terms & Conditions</li>
+                    </a>
+                    <a href="">
+                        <li>Privacy Policy</li>
+                    </a>
+                    <a href="">
+                        <li>Cookie info</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="footer-right-icons">
+            <div><img src="./images/Massai_logo2.svg" alt=""></div>
+            <div>
+                <p class="thin-text">Tbilisi, Georgia</p>
+            </div>
+            <div class="social-media">
+                <a href=""> <img src="./images/fb stroke.svg" class="img-fluid" alt="facebook-logo"></a>
+                <a href=""> <img src="./images/Instagram.svg" class="img-fluid" alt="instagram-logo"></a>
+                <a href=""> <img src="./images/mail.svg" class="img-fluid" alt="mail-icon"></a>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
